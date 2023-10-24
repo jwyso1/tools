@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "tools"
+version = "0.1.0"
+description = "Library with tools, constants and many usefull attributes for other Expedia projects"
+authors = ["jwysokinski <v-jwysokinski@expediagroup.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
